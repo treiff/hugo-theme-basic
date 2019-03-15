@@ -1,18 +1,17 @@
 <footer>
     <div>
       <p class="f6 gray mt6 lh-copy">
-        {{ .Site.Copyright }}
         {{with .Site.Params.twitter}}
           <span class="twitter">
             <a href="https://twitter.com/{{.}}" rel="author">
-            <img src="/images/twitter.png" width="48" height="48" title="Twitter: {{.}}"
+            <img src="/images/twitter.png" width="36" height="36" title="Twitter: {{.}}"
             alt="Twitter"></a>
           </span>
         {{end}}
         {{with .Site.Params.github}}
           <span class="github">
             <a href="https://github.com/{{.}}" rel="author">
-            <img src="/images/github.png" width="48" height="48" title="Github: {{.}}"
+            <img src="/images/github.png" width="36" height="36" title="Github: {{.}}"
             alt="GitHub"></a>
           </span>
         {{end}}
